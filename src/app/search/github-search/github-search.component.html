@@ -1,0 +1,14 @@
+<div>
+
+  <md-input-container>
+    <input mdInput placeholder="Github username" (change)="updateUsername($event)" >
+  </md-input-container>
+
+  <div>
+    <button md-raised-button [color]="buttonColor" (click)="getProfileInfo()">{{buttonLabel}}</button>
+  </div>
+
+
+  <pre>{{profileInfo|json}}</pre>
+
+</div>

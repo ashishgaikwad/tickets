@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+
+.mainmenu {
+    margin: 0 auto;
+    max-width: 300px;
+    position: relative;
+}
+
+div a {
+    padding: 2%;
+    margin: 2% auto;
+    width: 24%;
+    display: inline-block;
+    background: #ccc;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: Roboto, arial;
+
+}
