@@ -1,11 +1,11 @@
 <div>
 
-  <md-input-container>
-    <input mdInput placeholder="Github username" (change)="updateUsername($event)" >
-  </md-input-container>
+  <mat-input-container>
+    <input matInput placeholder="Github username" (change)="updateUsername($event)" >
+  </mat-input-container>
 
   <div>
-    <button md-raised-button [color]="buttonColor" (click)="getProfileInfo()">{{buttonLabel}}</button>
+    <button mat-raised-button [color]="buttonColor" (click)="getProfileInfo()">{{buttonLabel}}</button>
   </div>
 
 
